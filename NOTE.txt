@@ -1,0 +1,5 @@
+1. Single responsibility: Each class should be responsible for 1 goal
+2. Open close: Open for extension, Close for modification, When update feature not edit on this class, should create new class extend from old class
+3. Liskov substitution principle: Child class can represent parent class, But must be keep origin feature
+4. Interface segregation principle: segregation interface to small interface and group related function for each interface
+5. Dependency inversion principle: module higher level not dependency on module lower level.It's shoud dependency on interface of module lower level, Entity or class should denpendency on interface not  imeplementation
