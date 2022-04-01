@@ -13,8 +13,8 @@ namespace PizzaStore
         public void Prepare()
         {
             Console.WriteLine("Preparing " + name);
-            Console.WriteLine("Tossing dough...");
-            Console.WriteLine("Adding sauce...");
+            Console.WriteLine("Tossing dough..." + dough);
+            Console.WriteLine("Adding sauce..." + sauce);
             Console.WriteLine("Adding toppings:");
             toppings?.ForEach(
                 (topping) => Console.WriteLine("\t" + topping)
@@ -23,7 +23,7 @@ namespace PizzaStore
 
         public void Bake()
         {
-            Console.WriteLine("Baking " + name + "In 30 mins");
+            Console.WriteLine("Baking " + name + "in 30 mins");
         }
 
         public void Cut()
